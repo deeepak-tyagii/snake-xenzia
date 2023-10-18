@@ -9,5 +9,7 @@ terraform {
     bucket = "terraform-state-file-dt"
     key    = "test/aws_infra"
     region = "us-east-1"
+    dynamodb_table = "terraform-locks"
+    encrypt = true 
   }
 }
