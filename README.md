@@ -15,6 +15,16 @@
 - Create a Route53 record to point the game s3 endpoint to your subdomain. (snake-xenzia.yourdomain.com)
 - Clean Up.
 
+## Clone this repo
+First you need to clone this repo using following command - 
+
+```
+git clone <git-username/git-reponame>
+```
+Now, navigate to the terraform folder -
+```
+cd repo/snake-xenia-terraform
+```
 
 ## Environment Variables
 
